@@ -1,8 +1,10 @@
 # DataQualityGroup-MTSClean
 
 ## Description
-This is the experiment code for the MTSClean: "Efficient Constraint-based Cleaning for Multi-Dimensional Time Series Data".
-In addition, it also includes some constraint mining algorithms for time series data, such as RFDiscover, DAFDiscover and tsdd
+This is the experiment code for the MTSClean: "Efficient Constraint-based Cleaning for Multi-Dimensional Time Series Data". 
+MTSClean is a constraint-based multi-dimensional time series data cleaning algorithm. 
+It divides the data into different windows, mines the row and column constraints, and then cleans the data based on the constraints.
+In addition, it also includes some constraint mining algorithms for time series data, such as RFDiscover, DAFDiscover and TSDD
 
 ## Requirements
 - numpy
